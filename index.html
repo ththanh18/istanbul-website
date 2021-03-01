@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>City guide: Istanbul</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700,700i|Source+Sans+Pro:400,400i,600,600i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+    <!--navigation bar-->
+    <div id="mySidenav" class="sidenav">
+        <a href="#front-home" id="home">HOME</a>
+        <a href="#wrapper" id="about">ABOUT</a>
+        <a href="#w2" id="cuisine">CUISINE</a>
+        <a href="#w3" id="culture">CULTURE</a>
+        <a href="#w4" id="landmarks">LANDMARK</a>
+    </div>
+
+    <div id="alo">
+        <a href="#w5" id="alo-contact"><img src="img/contact.png" width="100" height="100"></a>
+    </div>
+    <!--home-->
+    <div id="front-home">
+        <header>
+            <img src="img/plain-bg.png" id="plain" width="2560" height="1440">
+            <div class="bay" data-aos="fade-up">
+                <img src="img/home-big.png" class="screen" width="2560" height="1440">
+                <img src="img/home-medium.png" class="ipad">
+                <img src="img/home-small.png" class="iphone">
+            </div>
+            <div class="text" data-aos="fade-down">
+                <img src="img/home-text.png" id="home-text">
+            </div>
+        </header>
+        
+
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    </div>
+    
+
+    <div id="wrapper">
+        <!--about-->
+        <div class="about">
+            <img src="img/about-text.png" class="title" data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
+
+            <div class="about-image" data-aos="fade-left">
+                <div class="card-container">
+                    <div class="card" id="location">
+                        <div class="front">
+                            <img src="img/about-location.png">
+                        </div>
+                        <div class="back">
+                            <h3>What is Istanbul?</h3>
+                            <p>A transcontinental city in Eurasia, north-western of Turkey.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card" id="area">
+                        <div class="front">
+                            <img src="img/about-area.png">
+                        </div>
+                        <div class="back">
+                            <h3>How big is it?</h3>
+                            <p>5,343 square kilometers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card" id="weather">
+                        <div class="front">
+                            <img src="img/about-weather.png">
+                        </div>
+                        <div class="back">
+                            <h3>What is the weather like here?</h3>
+                            <p>Istanbul is located in a transitional climatic zone with persistently high humidity.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card" id="sea">
+                        <div class="front">
+                            <img src="img/about-sea.png">
+                        </div>
+                        <div class="back">
+                            <h3>Does it have beautiful beaches?</h3>
+                            <p>Yes, it resides along the Bosporus straitt, between the Sea of Marmara and the Black Sea.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card" id="population">
+                        <div class="front">
+                            <img src="img/about-population.png">
+                        </div>
+                        <div class="back">
+                            <h3>What is its population?</h3>
+                            <p>15 million - it's the most populous city in Turkey.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card" id="language">
+                        <div class="front">
+                            <img src="img/about-language.png">
+                        </div>
+                        <div class="back">
+                            <h3>What do people speak here?</h3>
+                            <p>Turkish, English, French and/or German</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-container">
+                    <div class="card" id="religion">
+                        <div class="front">
+                            <img src="img/about-religion.png">
+                        </div>
+                        <div class="back">
+                            <h3>What about their religions?</h3>
+                            <p>Islam, Christanity or Judaism</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card" id="position">
+                        <div class="front">
+                            <img src="img/about-position.png">
+                        </div>
+                        <div class="back">
+                            <h3>What is its position to Turkey?</h3>
+                            <p>This is  the country's economic, cultural and historic center. It was also on the historic Silk Road</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of about-->
+    </div>
+
+    <div id="w2">
+        <!--cuisine-->
+        <div class="cuisine">
+            <img src="img/cuisine-text.png" class="title" data-aos="slide-right">
+            <div class="order">
+                <a class="prev" onclick="plusSlides(-1)"><img src="img/prev-arrow.png"></img></a>
+                <a class="next" onclick="plusSlides(1)"><img src="img/next-arrow.png"></img></a>
+            </div>
+
+            <div class="food fade" id="kebab">
+                <h3 class="dish-name" data-aos="slide-right">Döner kebap</h3>
+
+                <img class="dish" src="img/food-kebab.png" data-aos="slide-up">
+
+                <div class="description">
+                    <h4>What is it? </h4>
+                    <p>A Turkish classic - you cannot complete your trip to Turkey without eating this. Döner meat, usually lamb or turkey, is seasoned, stacked and cooked slowly on a vertical rotisserie. The cook will slice thin layers from the meat ‘cone’ when serving, resulting in a flavorful, crispy yet juicy filling of the bread. Döner kebap also varies in form: there is dürüm (döner with lavaş bread), and iskender kebap (döner on pide bread). The best part? You can have it anywhere: in an upscale restaurant, a fast food bistro, or enjoy a takeaway piece on the go!</p>
+                </div>
+
+                <div class="restaurant">
+                    <h4>Where to eat?</h4>
+                    <dl>
+                        <dt><a href="https://www.tripadvisor.com/Restaurant_Review-g293974-d2232745-Reviews-Donerci_Sahin_Usta-Istanbul.html">Donerci Sahin Usta</a></dt>
+                        <dd>Price range: Cheap</dd>
+                        <dd>Location: Taya Hatun Mh., Mahmutpasa Yokusu Sk No:9 The Grand Bazaar</dd>
+                    </dl>
+
+                    <dl>
+                        <dt><a href="https://www.tripadvisor.com/Restaurant_Review-g293974-d2674833-Reviews-Bayramoglu_Doner-Istanbul.html">Bayramoglu Doner</a></dt>
+                        <dd>Price range: Medium</dd>
+                        <dd>Location: Ruzgarlibahce G-69 Sk. No: 2 Kavacik, Beykoz</dd>
+                    </dl>
+
+                    <dl>
+                        <dt><a href="https://www.tripadvisor.com/Restaurant_Review-g293974-d806350-Reviews-Beyti_Restaurant-Istanbul.html">Beyti Restaurant</a></dt>
+                        <dd>Price range: Expensive</dd>
+                        <dd>Location: Orman Caddesi No: 8 Florya</dd>
+                    </dl>
+                </div>
+
+                <div class="list">
+                    <h4>Ingredients</h4>
+                    <ul>
+                        <li>Döner meat (any kind of meat)</li>
+                        <li>Bread (lavaş or pide)</li>
+                        <li>Vegetables: salad (lettuce, tomato, onion, etc.), eggplant</li>
+                        <li>Dressing: yoghurt, tomato sauce, chilli sauce, mayonnaise.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="food fade" id="meze">
+                <h3 class="dish-name">Meze</h3>
+
+                <img class="dish" src="img/food-meze.png">
+
+                <div class="description">
+                    <h4>What is it? </h4>
+                    <p>Meaning ‘appetizers’, meze is a set of small dishes served at the beginning of multi-course meals. You can also have these individually with alcoholic beverages in meyhane restaurants. The waiter will come with a list, and each dinner member will choose one or more meze. The dishes will then be put in the middle and shared, complemented with toast.</p>
+                </div>
+
+                <div class="restaurant">
+                    <h4>Where to eat?</h4>
+                    <dl>
+                        <dt><a href="https://www.tripadvisor.com/Restaurant_Review-g293974-d2455474-Reviews-Tarihi_Cumhuriyet_Meyhanesi-Istanbul.html">Tarihi Cumhuriyet Meyhanesi</a></dt>
+                        <dd>Price range: Medium</dd>
+                        <dd>Location: Huseyinaga Mh. Sahne Sokak No: 47 Beyoglu</dd>
+                    </dl>
+
+                    <dl>
+                        <dt><a href="https://www.tripadvisor.com/Restaurant_Review-g293974-d919972-Reviews-Giritli_Istanbul-Istanbul.html">Giritli Istanbul</a></dt>
+                        <dd>Price range: Medium</dd>
+                        <dd>Location: Keresteci HakkI Sokak Armada Otel YanI Cankurtaran</dd>
+                    </dl>
+
+                    <dl>
+                        <dt><a href="https://www.tripadvisor.com/Restaurant_Review-g293974-d740266-Reviews-Refik-Istanbul.html ">Refik</a></dt>
+                        <dd>Price range: Medium</dd>
+                        <dd>Location: Sofyali S 10-12</dd>
+                    </dl>
+                </div>
+
+                <div class="list">
+                    <h4>Must-try</h4>
+                    <ul>
+                        <li>Ezme (Chili Tomato Paste)</li>
+                        <li>Köpoğlu (fried eggplant cubes with yogurt & tomato sauce)</li>
+                        <li>Barbunya (Pinto Beans)</li>
+                        <li>Muhammara (dip made from red pepper paste, walnuts, lemon juice)</li>
+                        <li>Fava (mashed broad beans)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="food fade" id="kunefe">
+                <h3 class="dish-name">Künefe</h3>
+
+                <img class="dish" src="img/food-kunefe.png">
+
+                <div class="description">
+                    <h4>What is it? </h4>
+                    <p>This sweet treat is all over the streets of Istanbul: you can smell the thin crusty dough filled with unsalted native melting cheese from even far away. The dish is normally served warm, freshly baked, soaked in sugar syrup and topped with pistachio powder. A bite only is capable of waking all of your senses, for the perfect balance it brings about: sweet vs savory flavours, soft vs crusty textures, and even hot vs cold properties if you ask for an ice cream topping.</p>
+                </div>
+
+                <div class="restaurant">
+                    <h4>Where to eat?</h4>
+                    <dl>
+                        <dt><a href="https://www.tripadvisor.com/Restaurant_Review-g293974-d2094672-Reviews-Akdeniz_Hatay_Sofrasi-Istanbul.html ">Akdeniz Hatay Sofrasi</a></dt>
+                        <dd>Price range: Medium</dd>
+                        <dd>Location: Ahmediye Caddesi No: 44/A Fatih</dd>
+                    </dl>
+
+                    <dl>
+                        <dt><a href="https://www.tripadvisor.com/Restaurant_Review-g293974-d806596-Reviews-Karakoy_Gulluoglu-Istanbul.html ">Karakoy Gulluoglu</a></dt>
+                        <dd>Price range: Medium</dd>
+                        <dd>Location: Mumhane Cad. No:171 Karakoy</dd>
+                    </dl>
+
+                    <dl>
+                        <dt><a href="https://www.tripadvisor.com/Restaurant_Review-g293974-d1749881-Reviews-Hafiz_Mustafa_1864_Sirkeci-Istanbul.html ">Hafiz Mustafa 1864, Sirkeci</a></dt>
+                        <dd>Price range: Medium</dd>
+                        <dd>Location: Hocapasa Mahallesi, Muradiye Caddesi NO:25B Sirkeci, Fatih</dd>
+                    </dl>
+                </div>
+
+                <div class="list">
+                    <h4>Ingredients</h4>
+                    <ul>
+                        <li>Syrup (sugar, water and lemon)</li>
+                        <li>Cheese (mozzarella works fine)</li>
+                        <li>Dough (flour and water)</li>
+                        <li>Butter</li>
+                        <li>Two pans (to flip the dessert when cooking)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--end of cuisine-->
+    </div>
+
+    <div id="w3">
+        <!--culture-->
+        <img src="img/culture-text.png" class="title" data-aos="slide-right"> 
+		<ul data-aos="zoom-in">
+		    <li>
+		         <ul class="demo-1 effect">
+		            <li>
+		                <h2>Sema Ceremony</h2>
+		                <p>A religious traditional dance, performed by the semazen (men called  ‘Whirling Dervishes’). They will dance in circles to praise God, wearing special outfits, and can be seen at the Galata Mevlevi Museum on Sundays, or at a tekke every Thursday evening.</p>
+		            </li>
+		            
+		            <li><img class="top" src="img/culture-dance.png" width="762" height="650"></li>
+		        </ul>
+		    </li>
+
+
+		    <li>
+		         <ul class="demo-1 effect">
+		            <li>
+		               <h2>Festivals</h2>
+		                <p>Come at anytime in the year, and you can always find yourself several festive events to attend! The festivals are also highly-categorised: from spring’s Tulip Festival to summer’s Rock ‘n’ Coke concerts; Festivals of music, theatre, puppet, movies, books - you name it!</p>
+		            </li>
+		            
+		            <li><img class="top" src="img/culture-tulip.png" width="762" height="650"/></li>
+		        </ul>
+		    </li>
+
+
+
+		    <li>
+		         <ul class="demo-1 effect">
+		            <li>
+		                <h2>Souvenirs</h2>
+		                <p>Blue, the colour of the sky, is believed to be a protection against evil eyes in Middle East cultures; remember to look for blue eye-like beads in the flea markets next time you come to Istanbul. While being the traditional lucky charms, these beads can also become nice pieces of jewelry or unique souvenirs for friends and family back home.</p>
+		            </li>
+		            
+		            <li><img class="top" src="img/culture-charm.png" width="762" height="650"></li>
+		        </ul>
+		    </li>
+
+		</ul>
+        <!-- end of culture/festivals-->
+    </div>
+
+   <div id="w4">
+        <!--landmarks-->
+        <div class="landmarks">
+            <img src="img/landmark-text.png" class="title" data-aos="zoom-in-right">
+           <div class="cd transition" id="bazaar" data-aos="zoom-in-right">
+              <h2 class="transition">Grand Bazaar (Kapali Çarsi)</h2>
+              <ul id="list-bazaar">
+                        <li>Location: Eminounu</li>
+                        <li>Opening hours: 9:00 AM - 7:00 PM</li>
+                </ul>
+              <p>Often regarded as one of the oldest shopping malls of the world, the Grand Bazaar is arguably the most popular landmarks in Istanbul, and in 2014 it was crowned as the world’s most-visited tourist attraction with 91,250,000 annual visitors. Within this spacious area with several streets and shops, tourists can enjoy a wide range of products: from glittering jewels, ancient antiques to delicately sewn blankets and much more.</p>
+              <div class="cta-container transition"><a href="http://www.kapalicarsi.com.tr/" class="cta">More Info</a></div>
+              <div class="cd_circle transition"><img src="img/landmark-bazaar.png" width="418" height="304"></div>
+            </div>
+
+            <div class="cd transition" id="sofya" data-aos="zoom-in-right">
+              <h2 class="transition">Hagia Sophia (Aya Sofya)</h2>
+              <ul id="list-sofya">
+                        <li>Location: Ayasofya Square, Sultanahmet</li>
+                        <li>Opening hours: 12:00 AM - 11:59 PM</li>
+                </ul>
+              <p>The heart of Istanbul, Aya Sofya, is definitely a go-to sight for every city visitor. Initially a Byzantine Emperor Justinian’s church, then converted into an Ottoman’s mosque and nowadays a national museum, the building complex has been standing strong for 15 centuries; it, therefore, contains several cultural assets of different historical eras. Tourists can also enjoy the abundant greenery and breath-taking city views.</p>
+              <div class="cta-container transition"><a href="https://ayasofyamuzesi.gov.tr/" class="cta">More Info</a></div>
+              <div class="cd_circle transition"><img src="img/landmark-sofya.png" width="418" height="304"></div>
+            </div>
+
+            <div class="cd transition" id="galata" data-aos="zoom-in-right">
+              <h2 class="transition">Galata Tower (Galata Kulesi)</h2>
+              <ul id="list-galata">
+                        <li>Location: Buyuk Hendek Cad. 2</li>
+                        <li>Opening hours: 9:00 AM - 8:30 PM</li>
+                </ul>
+              <p>Located in the quarter of the same name, the Galata Tower boasts its grandeur from even far away thanks to its height of just under 220 feet, dominating the city skyline from virtually any direction. Originally built for defensive purposes centuries ago, the nine-story building is still holding its ground, enriched in history. Tourists will be surprised by the city landscape view as well as nearby attractions - markets, bars, restaurants.</p>
+              <div class="cta-container transition"><a href="http://www.galatatower.net/" class="cta">More Info</a></div>
+              <div class="cd_circle transition"><img src="img/landmark-galata.png" width="418" height="304"></div>
+            </div>
+
+            <div class="cd transition" id="topkapi" data-aos="zoom-in-right">
+              <h2 class="transition">Topkapi Palace (Topkapi Sarayi)</h2>
+             <ul id="list-topkapi">
+                        <li>Location: Cankurtaran, 34122 Fatih</li>
+                        <li>Opening hours: 9:00 AM - 6:00 PM</li>
+                </ul>
+              <p>This magnificent palace, built on the coast of Bosphorus by Mehmet the Conqueror in the 15th century, was the home of the Ottoman rulers. What is so interesting about the Topkapi Palace is the balanced combination of battlemented walls and towers, with decorated rooms, hand-painted tiles in Islamic bright, colourful art. The palace is gigantic - you will need at least half a day to thoroughly explore the complex.</p>
+              <div class="cta-container transition"><a href="https://topkapisarayi.gov.tr/en" class="cta">More Info</a></div>
+              <div class="cd_circle transition"><img src="img/landmark-topkapi.png" width="418" height="304"></div>
+            </div>
+        </div>
+        <!--end of landmarks-->
+    </div>
+
+    <div id="w5">
+        <!--contact and enquiry-->
+        <footer>
+            <div class="box1">
+                <div class="overlay">
+                    <h1> For Contact </h1> <br>
+                    <a href="mailto:lemylan0408@gmail.com"><h2> Email: istanbul_site@gmail.com </h2></a>
+                    <h2> Phone: +1 (8) 64 999 1311 </h2> <br>
+                </div>
+                </div>
+                <div class="container1">  
+                  <form id="contact" action="" method="post">
+                    <h3>General Enquiries</h3>
+                    <h4>Contact us today, and get reply with in 24 hours!</h4>
+                    <fieldset>
+                      <input placeholder="Your name" type="text" tabindex="1" required>
+                    </fieldset>
+                    <fieldset>
+                      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                    </fieldset>
+                    <fieldset>
+                      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+                    </fieldset>
+                    <fieldset>
+                      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
+                  </form>
+                </div>
+             </div>
+        </footer>
+        <!--end of contact and enquiry-->
+    </div>
+    <canvas id="bg"></canvas>
+<!-- partial -->
+  <script src='https://cdn.rawgit.com/liabru/matter-js/306dc024/build/matter.min.js'></script>
+	<script src='https://cdn.rawgit.com/liabru/matter-wrap/43be2639/build/matter-wrap.min.js'></script>
+    <script src="script.js"></script>
+</body>
+</html>
